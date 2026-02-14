@@ -24,16 +24,16 @@ This project is a PC-based GUI development tool designed to:
 ### 1. Create a Virtual Environment (Recommended)
 ```bash
 python -m venv .venv
-# Activate on Windows:
-.venv\Scripts\activate   
-# Activate on Linux/macOS:
-# source .venv/bin/activate
-
-### 2. 
+```
+Activate on Windows:
 ```bash
-pip install -r requirements.txt
+.venv\Scripts\activate   
+```
+# Activate on Linux/macOS:
+```bash
+source .venv/bin/activate
+```
 2. Install Dependencies:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,8 +42,8 @@ pip install -r requirements.txt
 To start the main interface:
 ```bash
 python gui.py
-Or to run the IMU observer specifically:
 ```
+Or to run the IMU observer specifically:
 ```bash
 python imuObserve.py
 ```
