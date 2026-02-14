@@ -29,7 +29,7 @@ Activate on Windows:
 ```bash
 .venv\Scripts\activate   
 ```
-# Activate on Linux/macOS:
+Activate on Linux/macOS:
 ```bash
 source .venv/bin/activate
 ```
